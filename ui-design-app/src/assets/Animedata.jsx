@@ -1,0 +1,286 @@
+export const AnimeRelease = [
+  {
+    id: 1,
+    name: "Jujutsu Kaisen Season 2",
+    image: "https://cdn.myanimelist.net/images/anime/1792/138022.jpg",
+    year: 2023,
+  },
+  {
+    id: 2,
+    name: "Attack on Titan: Final Season Part 3",
+    image: "https://cdn.myanimelist.net/images/anime/1506/138982.jpg",
+    year: 2023,
+  },
+  {
+    id: 3,
+    name: "Demon Slayer: Hashira Training Arc",
+    image: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+    year: 2023,
+  },
+  // {
+  //   id: 4,
+  //   name: "Solo Leveling",
+  //   image: "https://cdn.myanimelist.net/images/anime/1544/139571.jpg",
+  //   year: 2024,
+  // },
+  {
+    id: 5,
+    name: "Chainsaw Man",
+    image: "https://cdn.myanimelist.net/images/anime/1806/126216.jpg",
+    year: 2022,
+  },
+  {
+    id: 6,
+    name: "Blue Lock",
+    image: "https://cdn.myanimelist.net/images/anime/1258/126929.jpg",
+    year: 2022,
+  },
+  // {
+  //   id: 7,
+  //   name: "Vinland Saga Season 2",
+  //   image: "https://cdn.myanimelist.net/images/anime/1179/131572.jpg",
+  //   year: 2023,
+  // },
+  // {
+  //   id: 8,
+  //   name: "Hell's Paradise",
+  //   image: "https://cdn.myanimelist.net/images/anime/1075/133388.jpg",
+  //   year: 2023,
+  // },
+  // {
+  //   id: 9,
+  //   name: "Tokyo Revengers Season 2",
+  //   image: "https://cdn.myanimelist.net/images/anime/1904/131925.jpg",
+  //   year: 2023,
+  // },
+  // {
+  //   id: 10,
+  //   name: "Mashle",
+  //   image: "https://cdn.myanimelist.net/images/anime/1218/134097.jpg",
+  //   year: 2023,
+  // },
+];
+
+export const TopAnime = 
+  [
+    {
+      id: 1,
+      name: "Naruto Shippuden",
+      image: "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
+      year: 2007,
+    },
+    {
+      id: 2,
+      name: "One Piece",
+      image: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+      year: 1999,
+    },
+    {
+      id: 3,
+      name: "Attack on Titan",
+      image: "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+      year: 2013,
+    },
+    {
+      id: 4,
+      name: "Death Note",
+      image: "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+      year: 2006,
+    },
+    {
+      id: 5,
+      name: "Fullmetal Alchemist: Brotherhood",
+      image: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
+      year: 2009,
+    },
+    {
+      id: 6,
+      name: "Hunter x Hunter",
+      image: "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+      year: 2011,
+    },
+    {
+      id: 7,
+      name: "Demon Slayer",
+      image: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+      year: 2019,
+    },
+    {
+      id: 8,
+      name: "Dragon Ball Z",
+      image: "https://cdn.myanimelist.net/images/anime/7/74606.jpg",
+      year: 1989,
+    },
+    {
+      id: 9,
+      name: "Bleach",
+      image: "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+      year: 2004,
+    },
+    {
+      id: 10,
+      name: "Code Geass",
+      image: "https://cdn.myanimelist.net/images/anime/5/50331.jpg",
+      year: 2006,
+    },
+  ];
+
+export const DetailAnime = [
+  {
+    id: 1,
+    name: "Attack on Titan",
+    image: "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+    rating: 9.8,
+    reviews: "2.2M",
+    genre: ["Action", "Drama", "Dark Fantasy", "Post-Apocalyptic", "Thriller"],
+    description:
+      "A brutal war between humanity and Titans that explores freedom, sacrifice, and morality.",
+  },
+  {
+    id: 2,
+    name: "Death Note",
+    image: "https://cdn.myanimelist.net/images/anime/9/9453.jpg",
+    rating: 9.5,
+    reviews: "1.9M",
+    genre: ["Psychological", "Thriller", "Mystery", "Supernatural", "Drama"],
+    description:
+      "A high-IQ battle between a student with godlike power and the world's greatest detective.",
+  },
+  {
+    id: 3,
+    name: "Naruto",
+    image: "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
+    rating: 9.3,
+    reviews: "3.5M",
+    genre: ["Action", "Adventure", "Fantasy", "Martial Arts", "Shounen"],
+    description:
+      "A ninja's journey from outcast to hero through hard work, bonds, and belief.",
+  },
+  {
+    id: 4,
+    name: "One Piece",
+    image: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+    rating: 9.7,
+    reviews: "4.1M",
+    genre: ["Adventure", "Fantasy", "Action", "Comedy", "Pirates"],
+    description:
+      "A legendary pirate adventure about freedom, dreams, and friendship.",
+  },
+  {
+    id: 5,
+    name: "Demon Slayer",
+    image: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+    rating: 9.2,
+    reviews: "2.4M",
+    genre: ["Action", "Supernatural", "Adventure", "Dark Fantasy", "Historical"],
+    description:
+      "A visually stunning tale of a boy fighting demons to save his sister.",
+  },
+  {
+    id: 6,
+    name: "Jujutsu Kaisen",
+    image: "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+    rating: 9.1,
+    reviews: "1.7M",
+    genre: ["Action", "Dark Fantasy", "Supernatural", "Adventure", "Shounen"],
+    description:
+      "Sorcerers battle cursed spirits in a fast-paced modern dark fantasy.",
+  },
+  {
+    id: 7,
+    name: "Hunter x Hunter",
+    image: "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+    rating: 9.6,
+    reviews: "1.6M",
+    genre: ["Adventure", "Strategy", "Action", "Fantasy", "Shounen"],
+    description:
+      "A deceptively deep adventure anime with complex characters and power systems.",
+  },
+  {
+    id: 8,
+    name: "Bleach",
+    image: "https://cdn.myanimelist.net/images/anime/3/40451.jpg",
+    rating: 8.9,
+    reviews: "1.4M",
+    genre: ["Action", "Supernatural", "Adventure", "Fantasy", "Shounen"],
+    description:
+      "A teenager gains Soul Reaper powers to protect the living and the dead.",
+  },
+  {
+    id: 9,
+    name: "Vinland Saga",
+    image: "https://cdn.myanimelist.net/images/anime/1500/103005.jpg",
+    rating: 9.4,
+    reviews: "900K",
+    genre: ["Historical", "Drama", "Action", "Adventure", "Seinen"],
+    description: "A dark Viking epic about revenge, war, and redemption.",
+  },
+  {
+    id: 10,
+    name: "Fullmetal Alchemist: Brotherhood",
+    image: "https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
+    rating: 9.9,
+    reviews: "2.8M",
+    genre: ["Action", "Fantasy", "Adventure", "Drama", "Steampunk"],
+    description:
+      "Two brothers seek the Philosopher's Stone after a forbidden alchemy experiment.",
+  },
+];
+
+export const animeSlides = [
+  {
+    id: 1,
+    name: "Naruto",
+    img: "https://cdn.myanimelist.net/images/anime/13/17405.jpg",
+    gradient: "from-orange-500 via-yellow-400 to-red-500",
+    genre: ["Action", "Adventure", "Ninja"],
+    age: "13+",
+    category: "Top Anime",
+    info: "A young ninja seeks recognition and dreams of becoming the Hokage.",
+    color: "-orange-400",
+  },
+  {
+    id: 2,
+    name: "Attack on Titan",
+    img: "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+    gradient: "from-emerald-700 via-green-600 to-stone-700",
+    genre: ["Action", "Drama", "Dark Fantasy"],
+    age: "16+",
+    category: "Popular Anime",
+    info: "Humanity fights for survival against giant humanoid Titans.",
+    color: "-emerald-400",
+  },
+  {
+    id: 3,
+    name: "Demon Slayer",
+    img: "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+    gradient: "from-red-600 via-rose-500 to-neutral-900",
+    genre: ["Action", "Supernatural"],
+    age: "16+",
+    category: "Latest Release",
+    info: "A boy becomes a demon slayer to avenge his family and save his sister.",
+    color: "-red-400",
+  },
+  {
+    id: 4,
+    name: "One Piece",
+    img: "https://cdn.myanimelist.net/images/anime/6/73245.jpg",
+    gradient: "from-sky-400 via-blue-600 to-yellow-400",
+    genre: ["Adventure", "Fantasy", "Pirates"],
+    age: "10+",
+    category: "Top Anime",
+    info: "Luffy sets sail to find the legendary treasure and become Pirate King.",
+    color: "-sky-300",
+  },
+  {
+    id: 5,
+    name: "Jujutsu Kaisen",
+    img: "https://cdn.myanimelist.net/images/anime/1171/109222.jpg",
+    gradient: "from-purple-600 via-indigo-500 to-cyan-400",
+    genre: ["Action", "Dark Fantasy"],
+    age: "16+",
+    category: "Popular Anime",
+    info: "Sorcerers battle cursed spirits born from human negativity.",
+    color: "-purple-400",
+  },
+];

@@ -1,0 +1,21 @@
+.swiper-button-next, .swiper-button-prev{
+    color: white;
+    position: absolute;
+    margin:1rem;
+    top: 50%;
+    z-index:10;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+    transform:rotate(180deg);
+}
+.swiper-navigation-icon{
+    width: 2.5rem;
+    height:2.5rem;
+}
+.swiper-navigation-icon:nth-child(0){
+
+}

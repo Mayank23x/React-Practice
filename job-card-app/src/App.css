@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+.Card {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 20rem;
+  font-size: 0.9rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+  height:4.5rem;
+}
+.top img{
+  border-radius: 50%;
+  width:2.8rem;
+  height:2.8rem;
+  contain:fit;
+}
+button{
+  font-size: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  display: flex;
+  width:3.9rem;
+  height:2rem;
+}
+.center{
+  display:flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+.center h2{
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.center h3{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #bbbbbb;
+}
+.job-details{
+  display: flex;
+  gap: 10px;
+}
+.job-details h4{
+  background-color: #2a2a2a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  color: #dddddd;
+}
+.bottom{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  position: relative;
+}
+.bottom ::before{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #b8b7b7;
+}
+.bottom button{
+  width: 6rem;
+}
+.App h1{
+  text-align: center;
+  font-size:1.5rem;
+}
+.card-block{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

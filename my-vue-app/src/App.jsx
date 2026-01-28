@@ -15,8 +15,8 @@ function App() {
   const[color,setcolor] = useState('');
   const d=new Date();
   const countdown = () =>{
-       const newRand = Math.floor(Math.random()*99)+1;
-       setrand(newRand);
+       const newrand = Math.floor(Math.random()*99)+1;
+       setrand(newrand);
 
   }
 // UseEffect

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#0091EA;
+    --highlight-color:#40C4FF;
+    --block-color:#23272f;
+    --outline-color:#00B0FF;
+    --text-color:#FFFFFF;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+}
