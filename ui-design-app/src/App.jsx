@@ -1,7 +1,12 @@
 import "./App.css";
 import Headers from "./Components/Headers.jsx";
 import Aniprev from "./Components/Aniprev.jsx";
-import { animeSlides, TopAnime , AnimeRelease, DetailAnime } from "./assets/Animedata.jsx";
+import {
+  animeSlides,
+  TopAnime,
+  AnimeRelease,
+  DetailAnime,
+} from "./assets/Animedata.jsx";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -67,7 +72,7 @@ function App() {
       </Swiper>
       <Aniname name="Top animes" />
       <Swiper
-        modules={[ Pagination, Navigation]}
+        modules={[Pagination, Navigation]}
         pagination={{
           clickable: true,
           coverflow: true,
@@ -87,9 +92,8 @@ function App() {
       </Swiper>
       <Aniname name="Animes Description" />
       <div className="px-10 md:px-20 pb-10 grid grid-cols-2 gap-4">
-      {
-        DetailAnime.map((anime) => (
-          <Anidis 
+        {DetailAnime.map((anime) => (
+          <Anidis
             key={anime.id}
             name={anime.name}
             img={anime.image}
@@ -98,11 +102,9 @@ function App() {
             rating={anime.rating}
             reviews={anime.reviews}
           />
-        ))
-      }
+        ))}
       </div>
     </div>
-
   );
 }
 
